@@ -38,7 +38,15 @@ public class AndroidDevelPlugin implements FlutterPlugin, MethodCallHandler {
       result.success(environmentProvider.getCpuAbi());
     } else if (call.method.equals("getAndroidSdkVersion")){
       result.success(environmentProvider.getAndroidSdkVersion());
-    } else if (call.method.equals("getPackageCodePath")){
+    } else if (call.method.equals("getPackageName")){
+      result.success(environmentProvider.getPackageName());
+    } else if (call.method.equals("getOpPackageName")){
+      result.success(environmentProvider.getOpPackageName());
+    } else if (call.method.equals("getAttributionTag")){
+      result.success(environmentProvider.getAttributionTag());
+    }
+
+    else if (call.method.equals("getPackageCodePath")){
       result.success(pathProvider.getPackageCodePath());
     }  else if (call.method.equals("getCodeCacheDirAbsolutePath")){
       result.success(pathProvider.getCodeCacheDirAbsolutePath());
