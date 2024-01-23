@@ -24,44 +24,65 @@ abstract class AndroidDevelPlatform extends PlatformInterface {
   }
 
   Future<String> getPlatformVersion() {
-
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
-  Future<String>getPackageCodePath() {
-    throw UnimplementedError('getPackageCodePath() has not been implemented.');
 
+  Future<String> getPackageCodePath() {
+    throw UnimplementedError('getPackageCodePath() has not been implemented.');
   }
+
   Future<String> getPackageResourcePath() {
-    throw UnimplementedError('getPackageResourcePath() has not been implemented.');
+    throw UnimplementedError(
+        'getPackageResourcePath() has not been implemented.');
   }
 
   Future<String> getFilesDirAbsolutePath() {
-    throw UnimplementedError('getFilesDirAbsolutePath() has not been implemented.');
+    throw UnimplementedError(
+        'getFilesDirAbsolutePath() has not been implemented.');
   }
 
   Future<String> getCacheDirAbsolutePath() {
-    throw UnimplementedError('getCacheDirAbsolutePath() has not been implemented.');
+    throw UnimplementedError(
+        'getCacheDirAbsolutePath() has not been implemented.');
   }
 
   Future<String> getObbDirAbsolutePath() {
-    throw UnimplementedError('getObbDirAbsolutePath() has not been implemented.');
+    throw UnimplementedError(
+        'getObbDirAbsolutePath() has not been implemented.');
   }
 
   Future<String?> getCodeCacheDirAbsolutePath() {
-    throw UnimplementedError('getgetCodeCacheDirAbsolutePath() has not been implemented.');
+    throw UnimplementedError(
+        'getgetCodeCacheDirAbsolutePath() has not been implemented.');
   }
 
   Future<String?> getDataDirAbsolutePath() {
-    throw UnimplementedError('getDataDirAbsolutePath() has not been implemented.');
+    throw UnimplementedError(
+        'getDataDirAbsolutePath() has not been implemented.');
   }
+
   Future<int> getAndroidSdkVersion() {
-    throw UnimplementedError('getAndroidSdkVersion() has not been implemented.');
+    throw UnimplementedError(
+        'getAndroidSdkVersion() has not been implemented.');
   }
 
   Future<String> getCpuAbi() {
     throw UnimplementedError('getCpuAbi() has not been implemented.');
   }
+
   Future<String> getAndroidId() {
     throw UnimplementedError('getAndroidId() has not been implemented.');
+  }
+
+  Future<String> getPackageName() {
+    throw UnimplementedError('getPackageName() has not been implemented.');
+  }
+
+  Future<String?> getOpPackageName() {
+    throw UnimplementedError('getOpPackageName() has not been implemented.');
+  }
+
+  Future<String?> getAttributionTag() {
+    throw UnimplementedError('getAttributionTag() has not been implemented.');
   }
 }

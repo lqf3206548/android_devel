@@ -56,5 +56,15 @@ class EnvironmentProvider{
     return AndroidDevelPlatform.instance.getAndroidId();
   }
 
+  Future<String> getPackageName() {
+    return AndroidDevelPlatform.instance.getPackageName();
+  }
+  Future<String?> getOpPackageName() {
+    return AndroidDevelPlatform.instance.getOpPackageName();
+  }
+  Future<String?> getAttributionTag() {
+    return AndroidDevelPlatform.instance.getAttributionTag();
+  }
+
   EnvironmentProvider();
 }

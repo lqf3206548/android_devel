@@ -1,6 +1,6 @@
 name: android_devel
 description: "A plugin specifically designed for obtaining device environment values and paths with Android"
-version: 1.0.0
+version: 1.0.1
 homepage: "https://github.com/lqf3206548/android_devel"
 
 

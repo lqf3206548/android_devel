@@ -1,6 +1,8 @@
 # android_devel
 flutter plugin
 
+All dart api function names strive to have the same name as Android calling functions
+
 Mainly to supplement the official path_ The provider does not contain the getPackageCodePath function
 
 Specific function: Obtain some information about Android devices, such as Android ID, SDK version, and various Android paths
