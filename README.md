@@ -1,6 +1,9 @@
 # android_devel
+flutter plugin
 
-A new Flutter project.
+Mainly to supplement the official path_ The provider does not contain the getPackageCodePath function
+
+Specific function: Obtain some information about Android devices, such as Android ID, SDK version, and various Android paths
 
 ## Getting Started
 
